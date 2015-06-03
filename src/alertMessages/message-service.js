@@ -1,19 +1,10 @@
 /**
  * @ngdoc service
- * @name commons.service:messageService
+ * @name angular.alert.messages:messageService
  *
  * @description
  * Message service provides a way to present common notifications and prompts to the user.
  *
- * Complete list of shortcut methods:
- *
- * - {@link commons.service:messageService#info messageService.info}
- * - {@link commons.service:messageService#danger messageService.danger}
- * - {@link commons.service:messageService#success messageService.success}
- * - {@link commons.service:messageService#warning messageService.warning}
- * - {@link commons.service:messageService#show messageService.show}
- * - {@link commons.service:messageService#alert messageService.alert}
- * - {@link commons.service:messageService#confirm messageService.confirm}
  *
  * @example
  <pre>
