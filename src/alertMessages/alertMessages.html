@@ -1,0 +1,6 @@
+<div class="notification">
+    <alert ng-repeat="alert in vm.alerts" type="{{alert.type}}" close="vm.closeAlert($index)">
+        <!-- allow for sanitized html to appear in alerts -->
+        <span ng-bind-html="alert.msg"></span>
+    </alert>
+</div>
